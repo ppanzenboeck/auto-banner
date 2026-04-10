@@ -1,0 +1,4 @@
+*.png
+*.txt
+output/
+!banner-template.png

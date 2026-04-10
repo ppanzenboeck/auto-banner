@@ -1,0 +1,42 @@
+{
+  "device": {
+    "codename": "nabu",
+    "name": "Xiaomi Pad 5"
+  },
+  "maintainer": "P.A.N.Z.",
+  "release": {
+    "version": "16.2",
+    "qpr": "QPR2",
+    "type": "Stable Public Beta OFFICIAL",
+    "date_iso": "2026-03-16",
+    "date_display": "March 16,         2026",
+    "patch_month": "March"
+  },
+  "links": {
+    "auto_installer": "https://derpfest.org/installer/nabu",
+    "download": "https://sourceforge.net/projects/derpfest/files/nabu",
+    "support": "https://t.me/DerpFestnabu",
+    "paypal": "https://paypal.me/yourusername"
+  },
+  "image": {
+    "footer": "Optional flashable KernelSU-Next + SuSFS root and unroot zips available",
+    "bullets": [
+      "Initial 16.2 (QPR2) Public Beta release!",
+      "March Security Patch (QPR2)",
+      "Dirty flash and local update works!",
+      "New Desktop Mode and pill hideable",
+      "Please read release notes very carefully"
+    ]
+  },
+  "changelog": {
+    "features": [
+      "Android 16.2 (qpr2) in all its glory",
+      "ViPER4Android included",
+      "New Desktop Mode and pill hideable in settings/display"
+    ],
+    "regressions": [
+      "New Desktop Mode will spawn some desktops without you creating them, occasionally. Just ignore and \"clear all\" in recents every now and then.",
+      "Custom statusbar icon sets as of now are included, but not functional."
+    ]
+  }
+}
