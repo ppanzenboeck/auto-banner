@@ -7,7 +7,7 @@ if ! command -v jq &> /dev/null; then
 fi
 
 if ! command -v magick &> /dev/null; then
-    echo "Error: 'magick' (ImageMagick) is not installed."
+    echo "Error: 'magick' (ImageMagick) is not installed.  Please install it (e.g., sudo pacman -S imagemagick)."
     exit 1
 fi
 
